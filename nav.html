@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+             <!--NAVBAR-->
+      
+            <div class="container-fluid col-10">
+              <nav class="navbar navbar-expand-lg" id="navbar">
+                <b class="bold"><span>INFO</span>-TECH</b>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                  </svg>
+                  </svg>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                  <ul class="navbar-nav ms-auto mb-lg-0">
+                    <li class="nav-item"><a href="#home" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">COURSES</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">CONTACT</a></li>
+                    
+                  </ul>
+                </div> 
+          
+              </nav>
+              <hr>
+              
+
+              <!--HOME PAGE-->
+
+            <section id="home">
+              <div class="row">
+                <!--Bootstrap can divide screen into 12 columns lg means large md means medium without anything it is small -->
+                <!-- pt means padding top-->
+                <div class="col-lg-6 col-md-6 col-12 order-1 pt-5">
+                  <h1 class="display-4">WELCOME TO <span>INFO-TECH</span> TRAINING INSTITUTE</h1> 
+                  <!--  my means margin y axis -->
+                  <p class="my-lg-2 my-3">INFO-TECH Training Institute equip students with the knowledge and skills needed to function in a particular job. In short, these Institutes make students ready for the industry.</p>
+                  <button class="btn btn-primary my-lg-3 my-3">LEARN MORE</button>
+                </div>
+
+
+                <!--  py means padding y axis -->
+
+                <!--order means when in small device which to comes first and second -->
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 order-sm-2">
+                  <!--  img-fluid  means to fit the image to the crt size automatically whenever the screen size is reset the image size is also changed automatically  -->
+                  <img src="home.jpg" class="img-fluid">
+                </div>
+              </div>
+            </section>
+
+
+
+                   <!--ABOUT-->
+            <section id="about">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 order-1 pt-5">
+                  <h1>WHO WE ARE</h1>
+                  <h1 class="display-5"><span>INFO-TECH</span></h1>
+                  <p>1.Authorized Testing Center for Certiport<br>
+                    2.International Business Training Association Partner<br>
+                    3.We are an Information Resources Consultant/Training Agency<br>
+                    4.We are users advocates<br>
+                    5.We are innovative, available and proven professionals in Computer Software Applications.</p>
+                  <button class="btn btn-primary my-lg-3 my-3">TO KNOW MORE</button>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12 py-lg-0 py-3 ">
+                  <img src="about.jpg" class="img-fluid">
+                </div>
+              </div>
+
+            </section>
+
+            <!--COURSES-->
+            <section id="courses">
+              <div class="row">
+                 <h1 class="text-center">COURSES OFFERED</h1>
+                 <div class="col-md-4 my-2">
+                  <!-- the shadow near card is the background shadow -->
+                  <div class="card shadow">
+                    <!--rounded means its like a border-radius-->
+                    <div class="inner">
+                      <img src="cprogram.jpg"
+                       class="card-img-top rounded">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">C-PROGRAMMING</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nobis?
+                      </p>
+                      <a href="#" type="button "class="btn btn-success my-2 ">GET NOW</a>
+                    </div>
+                  </div>
+                 </div>
+
+                 <div class="col-md-4 my-2">
+                  <div class="card shadow">
+                    <div class="inner">
+                      <img src="c++program.png" class="card-img-top rounded">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">C++ PROGRAMMING</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nobis?
+                      </p>
+                      <a href="#" type="button "class="btn btn-success my-2 ">GET NOW</a>
+                    </div>
+                  </div>
+                 </div>
+
+                 <div class="col-md-4 my-2">
+                  <div class="card shadow">
+                    <div class="inner">
+                      <img src="csharp.jpg" class="card-img-top rounded">
+                    </div>
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">C# PROGRAMMING</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nobis?
+                      </p>
+                      <a href="#" type="button "class="btn btn-success my-2 ">GET NOW</a>
+                    </div>
+                  </div>
+                 </div>
+
+
+                 <div class="col-md-4 my-2">
+                  <!-- the shadow near card is the background shadow -->
+                  <div class="card shadow">
+                    <!--rounded means its like a border-radius-->
+                    <div class="inner">
+                      <img src="java.jpg"
+                       class="card-img-top rounded">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">JAVA-PROGRAMMING</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nobis?
+                      </p>
+                      <a href="#" type="button "class="btn btn-success my-2 ">GET NOW</a>
+                    </div>
+                  </div>
+                 </div>
+
+                 <div class="col-md-4 my-2">
+                  <!-- the shadow near card is the background shadow -->
+                  <div class="card shadow">
+                    <!--rounded means its like a border-radius-->
+                    <div class="inner">
+                      <img src="php.png"
+                       class="card-img-top rounded">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">PHP PROGRAMMING</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nobis?
+                      </p>
+                      <a href="#" type="button "class="btn btn-success my-2 ">GET NOW</a>
+                    </div>
+                  </div>
+                 </div>
+
+                 <div class="col-md-4 my-2">
+                  <!-- the shadow near card is the background shadow -->
+                  <div class="card shadow">
+                    <!--rounded means its like a border-radius-->
+                    <div class="inner">
+                      <img src="python.png"
+                       class="card-img-top rounded">
+                    </div>
+                    
+                    <div class="card-body">
+                      <h5 class="card-title">PYTHON PROGRAMMING</h5>
+                      <p class="card-text">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, nobis?
+                      </p>
+                      <a href="#" type="button "class="btn btn-success my-2 ">GET NOW</a>
+                    </div>
+                  </div>
+                 </div>
+              </div>          
+
+            </section>
+
+            <!--CONTACT-->
+
+            <section id="contact">
+              <div class="col-lg-4 col-md-6 col-12 mt-5">
+                  <form>
+                    <!--mb means margin bottom-->
+                      <div class="mb-3 text-center"> 
+                        <h3 class="py-lg-1 py-3">REGISTER</h3>
+                        <h4 class="py-lg-1 py-3">AND GET IN TOUCH</h4>
+                      </div>
+                        <div class="mb-3">
+                          <label class="form-label">Name</label>
+                          <input type="text" id="name" name="name" placeholder="Enter Your Name" class="form-control" required>  
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Email</label>
+                          <input type="email" id="email" name="email"placeholder="Enter Your email" class="form-control" required > 
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Mobile Number</label>
+                          <input type="number" id="number"name="number" placeholder="Enter Your Number" class="form-control"  required> 
+                        </div>
+                        <div class="mb-3">
+                          <label class="form-label">Enter Course Name</label>
+                          <input type="text" id="course"name="course" placeholder="Enter Course Name"  class="form-control" required>
+                          <div class="col-lg-6 col-md-6 col-12 py-lg-2 py-3">
+                            <button class="btn btn-primary mt-3"name="submit">SUBMIT</button>
+                          </div>
+                        </div>
+                  </form>
+              </div>
+
+            </section>
+
+
+
+
+         <div class="footer col-12 mt-5">
+           <div class="footer-left pt-2 pb-2">
+              <div>
+                <h3 style="text-align: center;">INFO-TECH TRAINING INSTITUTE</h3>
+                           
+                <p style="text-align: center;">Apt. 629 1874 Tillman Prairie, Casandraborough, NV 42671</p>
+              </div>
+           </div>
+           <div class="footer-center">
+              <div class="container-fluid d-flex justify-content-center mt-2 ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                  <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6"/>
+                </svg>                    <p class="">AMBATHUR,CHENNAI</p>
+              </div>
+              <div class="social-link text-center">
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16" style="color: black;">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                </svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16" style="color: black;">
+                  <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z"/>
+                </svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16" style="color: black;">
+                  <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                </svg></a>
+                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16" style="color: black;">
+                  <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                </svg></a>
+               
+              </div>
+           </div>
+          </div>
+           
+
+
+           
+            
+
+
+
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
